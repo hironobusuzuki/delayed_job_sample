@@ -20,4 +20,6 @@ $ sqlite3 db/development.sqlite3
 > .tables;
 > select * from delayed_jobs;
 > .exit
+
+$ bundle exec rails jobs:work
 ```
